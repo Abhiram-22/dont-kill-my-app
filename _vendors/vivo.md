@@ -6,8 +6,12 @@ award: 3
 position: 10
 redirect_from: /vendors/vivo.html
 explanation: "
-System restrictions on Vivo phones have not been fully uncovered yet. If you have any additional information, please let us know.<br>
-The apps loading from the background need a special permission for <strong>Autostart</strong>.
+Basically, For the apps to run in background(at all), They need a special permission called <strong>Autostart</strong>.
+This might be turned on for all apps, mostly.
+and then there is another thing called <strong>Battery Optimization</strong>. Even though the "AutoStart" is turned on for a given app, the app may eventually will get killed without you turning off the Battery optimization.
+
+<strong>Conclusion</strong>:For a app to work as intended, you need to enable AutoStart and disable Battery Optimization.
+
 "
 
 user_solution: "
